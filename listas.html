@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<style>
+    ol.num1{
+        list-style:lower-roman;
+    }
+    ol.letras{
+        list-style-type: lower-alpha;
+    }
+    ul.puntos{
+        list-style-type: disc;
+    }
+    ul.cuadrados{
+        list-style-type:square;
+    }
+</style>
+<body>
+    <ol class="num1">
+        <li>General Aviation
+            <ol class="letras">
+                <li>Single Aviation Aircraft</li>
+                <li>Dual Engine Aircraft</li>
+            </ol>
+        </li>
+        <li>Comercial Aviationgine
+            <ul class="puntos">
+                <li>Dual Engine</li>
+                <li>Tri-Engine</li>
+            </ul>
+        </li>
+    </ol>
+    <ul class="cuadrados">
+        <li>A
+            <ul class="puntos">
+                <li>B 
+                    <ol>
+                        <li>C</li>
+                        <li>D</li>
+                    </ol>
+                </li>
+                <li>E
+                    <ul>
+                        <li>F</li>
+                        <li>G</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>B</li>
+    </ul>
+</body>
+</html>
